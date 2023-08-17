@@ -5,6 +5,11 @@ import { Inter } from 'next/font/google';
 import styles from '@/styles/Home.module.css';
 const inter = Inter({ subsets: ['latin'] });
 
-export default function Home() {
-  return <></>;
+export default function Daboul() {
+  return (
+    <>
+      <div>Hello Daboul</div>
+      <Link href="/">Go to Main Page</Link>
+    </>
+  );
 }
